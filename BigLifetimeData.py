@@ -5,7 +5,7 @@ import os
 import scipy.integrate as integrate
 import scipy.special as special
 
-#CODE WORKS IN EXACTLY THE SAME WAY AS MuonLifetime
+#CODE WORKS IN EXACTLY THE SAME WAY AS MuonLifetime but for a specific large data set
 
 def FittingEq(t, tau, N_0, b):                                                              # sts format fir fitting eq
     return N_0 * np.exp(-t / tau) + b
